@@ -514,3 +514,47 @@ h1,span,h6 {
     line-height: 25.992px;
     /* 144.4% */
 }
+
+footer{
+    position: relative;
+    background: rgb(147,39,141) !important;
+    background: radial-gradient(circle, rgba(147,39,141,1) 0%, rgba(6,2,25,1) 35%) !important;
+}
+
+.custom-shape-divider-top-1694030592 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1694030592 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1694030592 .shape-fill {
+    fill: #fff;
+}
+
+.bottom-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    padding-top: 10px;
+}
+
+@media only screen and (min-width: 900px) {
+    .section{
+        display: flex;
+        align-items: center;
+    }
+  }

@@ -12,7 +12,7 @@
 </head>
 <body>
     <main id = "pagepiling">
-        <header class = "section pp-scrollable">
+        <header class = "section">
             <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center" style="position: absolute; z-index: 99;">
                 <a href="/" class="navbar-brand d-flex w-50 mr-auto">Sparky.ai</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
@@ -505,6 +505,30 @@
                 </div>
             </div>
         </section>
+        <footer class = "section pp-scrollable">
+            <div class="custom-shape-divider-top-1694030592">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class = "container">
+                <div class = "row">
+                    <div class = "col-lg-4 text-center mb-5"><img src = "./assets/img/socials/bi_medium.svg" class = "img-fluid" /> Medium</div>
+                    <div class = "col-lg-4 text-center mb-5"><img src = "./assets/img/socials/bi_medium.svg" class = "img-fluid" /> Medium</div>
+                    <div class = "col-lg-4 text-center mb-5"><img src = "./assets/img/socials/bi_medium.svg" class = "img-fluid" /> Medium</div>
+                </div>
+                <div class = "row">
+                    <div class = "col-lg-4 text-center mb-5"><img src = "./assets/img/socials/bi_medium.svg" class = "img-fluid" /> Medium</div>
+                    <div class = "col-lg-4 text-center mb-5"><img src = "./assets/img/socials/bi_medium.svg" class = "img-fluid" /> Medium</div>
+                    <div class = "col-lg-4 text-center mb-5"><img src = "./assets/img/socials/bi_medium.svg" class = "img-fluid" /> Medium</div>
+                </div>
+            </div>
+            <div class = "bottom-footer">
+                <div class = "container">
+                    <p>Sparky Ai</p>
+                </div>
+            </div>
+        </footer>
     </main>
 
 
@@ -523,10 +547,15 @@
     <script src="./assets/js/isotope.min.js"></script>
     <script>
         $(document).ready(function () {
-          $('#pagepiling').pagepiling({
-            navigation: false
-          });
-        });
+      $('#pagepiling').pagepiling({
+        navigation: {
+          'textColor': '#000',
+          'bulletsColor': '#fff',
+          'position': 'right',
+          'tooltips': ['section1', 'section2', 'section3', 'section4']
+        },
+      });
+    });
 
         $('.all').click()
     setTimeout(function(){
