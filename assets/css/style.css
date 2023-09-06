@@ -19,6 +19,10 @@ header {
     position: relative;
 }
 
+h1 {
+    font-weight: 800;
+}
+
 .custom-shape-divider-bottom-1693987528 {
     position: absolute;
     bottom: 0;
@@ -37,6 +41,46 @@ header {
 
 .custom-shape-divider-bottom-1693987528 .shape-fill {
     fill: #FFFFFF;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar-brand {
+    color: #fff !important;
+}
+
+.spark-img {
+    position: absolute;
+    top: 40%;
+    left: 65%;
+}
+
+.nav-link {
+    color: #FFF !important;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    /* 150% */
+}
+
+.active {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff !important;
+}
+
+.border-only {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    margin-right: 10px;
 }
 
 /* Hero Section */
@@ -90,13 +134,13 @@ header {
     /* 160% */
 }
 
-.hero-cookies{
+.hero-cookies {
     background: #fff;
     padding: 0 0.7em 0 0.5em;
     border-radius: 50px;
 }
 
-.cookie-para-wrapper{
+.cookie-para-wrapper {
     padding: 0em 0.5em;
     margin-top: 13px;
 }
@@ -111,7 +155,7 @@ header {
     /* 150% */
 }
 
-.cookie-btn-wrapper{
+.cookie-btn-wrapper {
     padding: 0.2em;
 }
 
@@ -357,15 +401,38 @@ header {
     /* 150% */
 }
 
+.tools-para {
+    color: #656F7E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.992px;
+    width: 50%;
+    margin: 0 auto;
+    /* 144.4% */
+}
+
 /* How does it work section */
 
 .setup-wrapper {
     background: linear-gradient(#3755DF, #8163F2, #4478D8);
     border-radius: 50px;
     padding: 3em;
+    color: #E5E6E6;
 }
 
 /* FAQ Section */
+
+.faq-item{
+    padding: 10px 0;
+    border-bottom: 2px solid rgba(52, 60, 87, 0.1);
+}
+
+.faq-desc{
+    text-align: left !important;
+}
 
 .faq-wrapper {
     border-radius: 50px;
