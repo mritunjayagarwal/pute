@@ -12,7 +12,7 @@
 </head>
 <body>
     <main id = "pagepiling">
-        <header class = "section">
+        <header class = "section pp-scrollable">
             <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center" style="position: absolute; z-index: 99;">
                 <a href="/" class="navbar-brand d-flex w-50 mr-auto">Sparky.ai</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
@@ -93,7 +93,7 @@
             </div>
             <img src="./assets/img/spark.svg" class = "spark-img" alt="">
         </header>
-        <section class = "section">
+        <section class = "section pp-scrollable">
             <div class = "container">
                 <div>
                     <div class = "about-heading">
@@ -148,7 +148,7 @@
                 </div>
             </div>
         </section>
-        <section class = "section">
+        <section class = "section pp-scrollable">
             <div class = "container">
                 <div class = "artist-wrapper">
                     <div class = "artist-top-wrapper">
@@ -192,49 +192,82 @@
                 </div>
             </div>
         </section>
-        <section class = "section">
+        <section class = "section pp-scrollable">
             <div class = "container">
                 <div class = "custom-wrapper">
                     <div class = "custom-top">
-                        <h1 class = "text-center">
+                        <div class = "artist-left-top mx-auto" style = "width: 20%;background: rgba(8, 61, 145, 0.15);">
+                            <span class = "artist-left-top-head d-flex">
+                                Custom . Prompts
+                            </span>
+                        </div>
+                        <h1 class = "text-center mt-3">
                             Custom Templates.
                         </h1>
                     </div>
                     <div class = "custom-main mt-5">
-                        <div class = "row">
-                            <div class = "col-lg-4">
-                                <div class = "custom-item">
-                                    <div class = "d-flex">
-                                        <div class = "p-2 custom-img-wrapper"><img src="./assets/img/about/3.svg" class = "img-fluid custom-img" alt=""></div>
+                        <div>
+                            <div class = "filter d-flex">
+                                <div class = "all text-center p-2" data-name='.first' style = "flex: 1">
+                                    <div class = "all-main main-top h-100 w-100 py-3">
+                                        All
                                     </div>
-                                    <h1 class = "mt-2">Blog post</h1>
-                                    <p>Blog Post Write a blog post with pute.ai</p>
+                                </div>
+                                <div class = "voice text-center p-2" data-name='.second' style = "flex: 1">
+                                    <div class = "voice-main main-top h-100 w-100 py-3">
+                                        Voice Over
+                                    </div>
+                                </div>
+                                <div class = "articles text-center p-2" data-name='.third' style = "flex: 1">
+                                    <div class = "articles-main main-top h-100 w-100 py-3">
+                                        Articles
+                                    </div>
+                                </div>
+                                <div class = "email text-center p-2" data-name='.fourth' style = "flex: 1">
+                                    <div class = "email-main main-top h-100 w-100 py-3">
+                                        Email
+                                    </div>
                                 </div>
                             </div>
-                            <div class = "col-lg-4">
-                                <div class = "custom-item">
-                                    <div class = "d-flex">
-                                        <div class = "p-2 custom-img-wrapper"><img src="./assets/img/about/3.svg" class = "img-fluid custom-img" alt=""></div>
+                            <div class = "mb-3 mt-5">
+                                <div id = "display">
+                                    <div class = "row grid">
+                                        <div class = "col-lg-4 col-md-6 text-center grid-item first second mb-3">
+                                            <div class = "custom-item">
+                                                <div class = "d-flex">
+                                                    <div class = "p-2 custom-img-wrapper"><img src="./assets/img/about/3.svg" class = "img-fluid custom-img" alt=""></div>
+                                                </div>
+                                                <h1 class = "mt-2">Blog post</h1>
+                                                <p>Blog Post Write a blog post with pute.ai</p>
+                                            </div>
+                                        </div>
+                                        <div class = "col-lg-4 col-md-6 text-center grid-item first third mb-3">
+                                            <div class = "custom-item">
+                                                <div class = "d-flex">
+                                                    <div class = "p-2 custom-img-wrapper"><img src="./assets/img/about/3.svg" class = "img-fluid custom-img" alt=""></div>
+                                                </div>
+                                                <h1 class = "mt-2">Blog post</h1>
+                                                <p>Blog Post Write a blog post with pute.ai</p>
+                                            </div>
+                                        </div>
+                                        <div class = "col-lg-4 col-md-6 text-center grid-item first fourth mb-3">
+                                            <div class = "custom-item">
+                                                <div class = "d-flex">
+                                                    <div class = "p-2 custom-img-wrapper"><img src="./assets/img/about/3.svg" class = "img-fluid custom-img" alt=""></div>
+                                                </div>
+                                                <h1 class = "mt-2">Blog post</h1>
+                                                <p>Blog Post Write a blog post with pute.ai</p>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <h1 class = "mt-2">Blog post</h1>
-                                    <p>Blog Post Write a blog post with pute.ai</p>
                                 </div>
                             </div>
-                            <div class = "col-lg-4">
-                                <div class = "custom-item">
-                                    <div class = "d-flex">
-                                        <div class = "p-2 custom-img-wrapper"><img src="./assets/img/about/3.svg" class = "img-fluid custom-img" alt=""></div>
-                                    </div>
-                                    <h1 class = "mt-2">Blog post</h1>
-                                    <p>Blog Post Write a blog post with pute.ai</p>
-                                </div>
-                            </div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>
         </section>
-        <section class = "section">
+        <section class = "section pp-scrollable">
             <div class = "container">
                 <div class = "tools-wrapper">
                     <h1 class = "text-center">Incredible tools <br /> 出 <br /> 色的工具</h1>
@@ -279,7 +312,7 @@
                 </div>
             </div>
         </section>
-        <section class = "section">
+        <section class = "section pp-scrollable">
             <div class = "container">
                 <div class = "setup-wrapper">
                     <div class = "setup-top">
@@ -314,7 +347,7 @@
                 </div>
             </div>
         </section>
-        <section class = "section">
+        <section class = "section pp-scrollable">
             <div class = "container">
                 <div class = "faq-wrapper">
                     <div class = "faq-top">
@@ -487,12 +520,62 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
     <script src="./assets/js/jquery.pagepiling.min.js"></script>
+    <script src="./assets/js/isotope.min.js"></script>
     <script>
         $(document).ready(function () {
           $('#pagepiling').pagepiling({
             navigation: false
           });
         });
+
+        $('.all').click()
+    setTimeout(function(){
+        $('.all').click()
+    }, '1000')
+
+    $('.all-main').click(function(){
+        $('.voice-main').css({"background": "#fff", "height": "100%", "width": "100%", "font-size": "12px", "color": "#000", "border-radius": "10px"})
+        $('.articles-main').css({"background": "#fff", "height": "100%", "width": "100%", "font-size": "12px", "color": "#000", "border-radius": "10px"})
+        $('.email-main').css({"background": "#fff", "height": "100%", "width": "100%", "font-size": "12px", "color": "#000", "border-radius": "10px"})
+        $(this).css({"background": "linear-gradient(#3755DF, #9E68F9)", "height": "100%", "width": "100%", "font-size": "12px", "color": "#fff", "border-radius": "10px"});
+    })
+    $('.voice-main').click(function(){
+        $('.all-main').css({"background": "#fff", "height": "100%", "width": "100%", "font-size": "12px", "color": "#000", "border-radius": "10px"})
+        $('.articles-main').css({"background": "#fff", "height": "100%", "width": "100%", "font-size": "12px", "color": "#000", "border-radius": "10px"})
+        $('.email-main').css({"background": "#fff", "height": "100%", "width": "100%", "font-size": "12px", "color": "#000", "border-radius": "10px"})
+        $(this).css({"background": "linear-gradient(#3755DF, #9E68F9)", "height": "100%", "width": "100%", "font-size": "12px", "color": "#fff", "border-radius": "10px"});
+    })
+    $('.articles-main').click(function(){
+        $('.all-main').css({"background": "#fff", "height": "100%", "width": "100%", "font-size": "12px", "color": "#000", "border-radius": "10px"})
+        $('.voice-main').css({"background": "#fff", "height": "100%", "width": "100%", "font-size": "12px", "color": "#000", "border-radius": "10px"})
+        $('.email-main').css({"background": "#fff", "height": "100%", "width": "100%", "font-size": "12px", "color": "#000", "border-radius": "10px"})
+        $(this).css({"background": "linear-gradient(#3755DF, #9E68F9)", "height": "100%", "width": "100%", "font-size": "12px", "color": "#fff", "border-radius": "10px"});
+    })
+    $('.email-main').click(function(){
+        $('.all-main').css({"background": "#fff", "height": "100%", "width": "100%", "font-size": "12px", "color": "#000", "border-radius": "10px"})
+        $('.articles-main').css({"background": "#fff", "height": "100%", "width": "100%", "font-size": "12px", "color": "#000", "border-radius": "10px"})
+        $('.voice-main').css({"background": "#fff", "height": "100%", "width": "100%", "font-size": "12px", "color": "#000", "border-radius": "10px"})
+        $(this).css({"background": "linear-gradient(#3755DF, #9E68F9)", "height": "100%", "width": "100%", "font-size": "12px", "color": "#fff", "border-radius": "10px"});
+    })
+
+    var $grid = $('.grid').isotope({
+          filter: $('.first'),
+		  itemSelector: '.grid-item',
+		  layoutMode: 'fitRows',
+		  getSortData: {
+			name: function (element) {
+			  return $(element).text();
+			}
+		  }
+		});
+		$('.filter div').on("click", function () {
+		  var value = $(this).attr('data-name');
+			$grid.isotope({
+			  filter: value
+			});
+		  $('.filter div').removeClass('active');
+		  $(this).addClass('active');
+		})
       </script>
 </body>
 </html>
