@@ -11,8 +11,18 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+main {
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+
 section {
     padding: 50px 0;
+    height: 100vh;
+    scroll-snap-align: center;
+    display: flex;
+    align-items: center;
 }
 
 header {
