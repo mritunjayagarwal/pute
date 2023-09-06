@@ -13,7 +13,7 @@
 <body>
     <main id = "pagepiling">
         <header class = "section">
-            <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+            <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center" style="position: absolute; z-index: 99;">
                 <a href="/" class="navbar-brand d-flex w-50 mr-auto">Sparky.ai</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
                     <span class="navbar-toggler-icon"></span>
@@ -52,10 +52,13 @@
                     </ul>
                 </div>
             </nav>
-            <section class = "hero-section">
+            <section class = "hero-section" style = "position: relative;">
                 <div class = "container h-100">
+                    <video id="background-video" playsinline autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+                        <source src="./assets/background.mp4" type="video/mp4">
+                      </video>  
                     <div class = "d-flex align-items-center justify-content-center h-100">
-                        <div>
+                        <div style = "position: absolute;">
                             <div class = "hero-top mt-5">
                                 <h1 class = "text-center">Sparky.io<br />
                                     is your</h1>
