@@ -383,18 +383,15 @@ h1,span,h6 {
     /* 150% */
 }
 
+.custom-tag{
+    width: 20%;background: rgba(8, 61, 145, 0.15);
+}
+
 .filter{
     border-radius: 8px;
     border: 1px solid #E5E7EB;
     width: 50%;
     margin: 0 auto;
-}
-
-.f199-main{
-    background: linear-gradient(#3755DF, #9E68F9);
-    height: 100%;
-    width: 100%;
-    font-size: 12px;
 }
 
 .main-top{
@@ -421,6 +418,7 @@ h1,span,h6 {
 .tools-item {
     background: #F5F5F7;
     border-radius: 40px;
+    margin-bottom: 20px;
 }
 
 .tools-item-bottom {
@@ -557,4 +555,51 @@ footer{
         display: flex;
         align-items: center;
     }
+
+    .custom-wrapper, .setup-wrapper, .tools-wrapper, .custom-wrapper, .artist-wrapper {
+        padding: 10px !important;
+    }
+  }
+
+@media only screen and (max-width: 900px) {
+    .custom-wrapper, .setup-wrapper, .tools-wrapper, .custom-wrapper, .artist-wrapper {
+        padding: 3em 2em !important;
+    }
+
+    .filter{
+        width: 100%;
+    }
+
+    .custom-tag{
+        width: 60% !important
+    }
+
+    .artist-left-top{
+        width: 100%;;
+    }
+
+    .artist-top{
+        width: 100%;
+        margin-bottom: -30px;
+    }
+
+    .hero-cookies{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .cookie-para{
+        font-size: 10px;
+    }
+
+    .navbar-collapse{
+        background: #fff;
+        padding: 0.5em 1em;
+    }
+
+    .nav-link{
+        color: #000 !important;
+        text-align: left;
+    }
+    
   }
