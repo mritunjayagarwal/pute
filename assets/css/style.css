@@ -360,6 +360,7 @@ h1,span,h6 {
     padding: 1em;
     border-radius: 10px;
     background: #F5F5F7;
+    min-height: 200px;
 }
 
 .custom-item h1 {
