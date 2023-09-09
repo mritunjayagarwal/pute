@@ -639,6 +639,11 @@ footer {
         padding: 3em 2em !important;
     }
 
+    .spark-img {
+        top: 34%;
+        left: 82%;
+    }
+
     .filter {
         width: 100%;
     }
