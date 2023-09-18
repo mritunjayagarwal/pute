@@ -585,6 +585,7 @@ footer {
     margin-right: auto !important;
     opacity: 0;
     text-transform: uppercase;
+    font-family: 'Inter', sans-serif !important;
     color: #fff !important;
 }
 
