@@ -195,7 +195,7 @@ h6 {
     background: linear-gradient(rgba(55, 85, 223, 1), rgba(158, 104, 249, 1));
 }
 
-.about-img {
+.about-img, .social-img {
     width: 80px;
     margin-top: -5px;
 }
@@ -691,6 +691,10 @@ footer {
 
     .word{
         top: 30px
+    }
+
+    .social-img{
+        width: 30px !important;
     }
 
 }
